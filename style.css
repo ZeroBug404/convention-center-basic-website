@@ -5,3 +5,40 @@ body {
   font-family: "Rubik Beastly", cursive;
   font-family: "Ubuntu", sans-serif;
 }
+/* newsletter style start  */
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+}
+.form-box {
+  padding: 10px;
+  border-radius: 30px;
+  background: #ececec;
+  box-shadow: 10px 10px 15x #c7c4c4, -10px -10px 15px #fff;
+}
+.form-box input {
+  font-size: 18px;
+  color: black;
+  padding: 15px 10px;
+  border: none;
+  outline: none;
+  background: #ececec;
+}
+.newsletter {
+  text-align: center;
+  padding: 83px 16px;
+  background-color: #edf5f6;
+  margin-top: 80px;
+}
+.newsletter h1 {
+  color: #333333;
+  font-size: 50px;
+}
+.newsletter p {
+  color: #333333;
+  font-size: 20px;
+  margin-top: 10px;
+}
+/* newsletter style end  */
